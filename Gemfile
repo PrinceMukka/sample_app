@@ -7,7 +7,7 @@ gem 'rails', '3.2.12'
 
 group :development do
 gem 'sqlite3'
-gem 'rspec-rails', '2.0.1'
+gem 'rspec-rails', '2.6.1.beta1'
 end
 
 group :production do
@@ -15,7 +15,7 @@ group :production do
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.6'
   gem 'webrat', '0.7.1'
 end
 # Gems used only for assets and not required
