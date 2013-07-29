@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
 gem 'sqlite3'
 gem 'rspec-rails', '2.6.1.beta1'
+gem 'annotate', ">=2.5.0"
 end
 
 group :production do
